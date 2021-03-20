@@ -10,8 +10,7 @@ module.exports = function({ HomeRoutes }) {
     const apiRoutes = express.Router();	
       
     apiRoutes	
-      .use(express.json())	
-      .use(cors())	
+      .use(express.json()).use(cors())	
       .use(helmet())	
       .use(compression());	
       
