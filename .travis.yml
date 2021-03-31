@@ -1,10 +1,8 @@
 language: node_js
-node_js: 
-  - stable
+node_js:
+- stable
 deploy:
-  provider: heroku 
+  provider: heroku
   app: sharedyourideasant-nodejs
   api_key:
-    secure: 1611446a-2d77-4cce-9b82-bfd31a2b6ca7
-
-  
+    secure: HOIqT6yXR1+OgoW4uZoAfhs/gYTNAQKjS3Z+9GN5RkC+FCx/xsdAcKmbkInlgFx8vS9mNFCtRZDhJ88y5sFMveeyheBitZxHLyqznvPnXWitM62WnqcsiYr2QcU6QsD2r+/b73aw3/sNIixQnZDuah8n4B4ZPlsmguEIXi/9utEE4QurZJ0a58TsuyztLitscv/dIdWF9A+3Kmh38xKs4oxCdUqz3jwfQqadPIDcZlxJ9Pil+oHjNhgY84jrnmqtBTtzbjLjm9itimT/ZsynbnLz/8bid3jpGTYcJnzQ3G1mUiw+dRhl83yu8DnbUi1M8SLcsIzFfv/y6sLQp7r3D4+wtCGDqVYKSw9AaChXJCsZyQLjfcOpd6SolRIEhGtcH4T7TXc3j+cpTweGg48fq1TXIisftLApVim8y3N1IQP/pwi876n7vDYAkJIpXb7vGLs2YGhUNAdxAG6u1Tgr+wNVoT9uOYJLkcowFSDyYVqiefUf2uA0JGMAjIj8WnEWrcdCSTbnI828zo2nZ1pWAcQTkimOLCQ5YSaB94uag9r20K3QfDX70JK9D4MtiAq6EkGeVJBV3csJFK0h60WOE81FGkWBYq5DMgls9+ddgq3+e8b+8TdhERlkwBAA+ggEvui/e4xwb2nukMOliGs9ZaL5rHFCYeje/JP2fNs1Sz0=
