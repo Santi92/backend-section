@@ -1,0 +1,9 @@
+language: node_jse
+node_jse: 
+  - stable
+deploy:
+  provider: heroku 
+  app: sharedyourideasant-nodejs
+    secure: 1611446a-2d77-4cce-9b82-bfd31a2b6ca7
+    
+  
