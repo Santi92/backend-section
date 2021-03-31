@@ -54,7 +54,6 @@ describe("User Repository Tests", () => {
     const expected = await _userRepository.update(user._id, {
       name: "Marluan"
     });
-
     expect(JSON.parse(JSON.stringify(expected))).toMatchObject(_user);
   });
 
